@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1b26;
+  color: #eecbf5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.language-switch {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background-color: #1e1b26;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.language-switch button {
+  background: none;
+  border: 1px solid #eecbf5;
+  color: #eecbf5;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.language-switch button:hover {
+  background-color: #eecbf5;
+  color: #1e1b26;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+
+.name {
+  font-family: 'Creato Display', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px #eecbf5;
+  text-shadow: none;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-shadow: none;
+  border-bottom: 2px solid #eecbf5;
+  padding-bottom: 4px;
+  width: auto;
+  text-align: center;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  margin: 20px 0 30px 0;
+}
+
+.menu a {
+  color: #eecbf5;
+  text-decoration: underline;
+  font-size: 16px;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.menu a:hover {
+  border-color: #eecbf5;
+  background-color: #eecbf5;
+  color: #1e1b26;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 50px 0;
+}
+
+
+
+
+
+
+
+.portrait {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  border: 2px solid #eecbf5;
+}
+
+/* 기본 intro-text는 기울이지 않음 */
+.intro-text {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.menu {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+/* 명언 전용 스타일 */
+.quote-text {
+font-size: 18px;
+  font-style: italic;
+}
+
+
+a {
+  color: #eecbf5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.two-column {
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  text-align: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.two-column .portrait {
+  margin-bottom: 0;
+}
+
+.two-column .intro-text {
+  max-width: 500px;
+}
+
