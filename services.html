@@ -5,39 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Laurenz Pohl – Strafverteidigung</title>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="lang.js"></script>
 </head>
-<body>
+
+<body data-page="Strafverteidigung" onload="setLanguage(localStorage.getItem('lang') || 'de')">
+
+  <!-- 언어 전환 버튼 -->
   <div class="language-switch">
     <button onclick="setLanguage('de')">DE</button>
     <button onclick="setLanguage('en')">EN</button>
+    <button onclick="setLanguage('uk')">UK</button>
     <button onclick="setLanguage('fa')">FA</button>
   </div>
 
+  <!-- 메인 콘텐츠 -->
   <div class="container">
-   <a href="index.html" class="name">Laurenz Pohl</a>
-    <div class="title" id="title">Rechtanwalt</div>
- <nav class="menu" id="menu">
-      <a href="about.html">Profil</a>
-      <a href="services.html">Strafverteidigung</a>
-<a href="kosten.html">Kosten</a>
-<a href="Kooperationspartner.html">Kooperationspartner</a>
-      <a href="contact.html">Kontakt</a>
+    <a href="index.html" class="name">Laurenz Pohl</a>
+    <div class="title" id="title">Rechtsanwalt</div>
+
+    <!-- 메뉴 -->
+    <nav class="menu" id="menu">
+      <a href="about.html" id="nav-about">Profil</a>
+      <a href="services.html" id="nav-services">Strafverteidigung</a>
+      <a href="kosten.html" id="nav-costs">Kosten</a>
+      <a href="Kooperationspartner.html" id="nav-partners">Kooperationspartner</a>
+      <a href="contact.html" id="nav-contact">Kontakt</a>
     </nav>
-    <div class="intro-text" id="services-text">
-Juristische Unterstützung von Anfang an – kompetent und engagiert
-In belastenden oder unübersichtlichen Situationen kann eine frühzeitige rechtliche Beratung entscheidend für den weiteren Verlauf sein. Eine präzise Einschätzung des Sachverhalts aus juristischer Perspektive schafft die Grundlage für eine effektive Verteidigung. <br><br>
-Ich begleite Sie bereits in der Anfangsphase eines Ermittlungsverfahrens – sei es nach einer Festnahme, bei Anordnung von Untersuchungshaft oder bei Vernehmungen durch Polizei oder Staatsanwaltschaft. Als Strafverteidiger biete ich bundesweit engagierte Verteidigung in sämtlichen strafrechtlichen Bereichen – sowohl als Wahlverteidiger als auch als Pflichtverteidiger. <br><br>
-Gerade in diesen ersten, häufig richtungsweisenden Momenten eines Strafverfahrens ist eine kompetente Vertretung besonders wichtig. Ich stehe Ihnen in jeder Phase des Verfahrens zuverlässig zur Seite – mit juristischem Sachverstand und klarem Blick für das Wesentliche. <br><br>
-<br><br>
 
+    
+    <!-- 콘텐츠 영역 -->
+    <div class="intro">
+      <div id="page-title" class="page-title"></div>
+      <p id="services-text" class="intro-text"></p>
+    </div>
+  </div>
 
-RA Pohl vertritt zudem auch Opfer von Straftaten oder deren Hinterbliebene als Nebenkläger.
-
-      <ul style="list-style: none; padding: 0;">
-
-      </ul>
-
-
-  <script src="lang.js"></script>
+    <footer>
+  <div class="footer-links">
+    <a href="impressum.html" id="footer-impressum">Impressum</a> |
+    <a href="datenschutz.html" id="footer-datenschutz">Datenschutz</a>
+  </div>
+</footer>
 </body>
 </html>
+ 
