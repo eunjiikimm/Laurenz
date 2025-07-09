@@ -32,13 +32,22 @@ body {
   color: #1e1b26;
 }
 
+
+/* .container {
+  text-align: center;
+  width: 100%;
+  /* max-width: 1000px; 
+  padding: 0 20px;
+  margin: 0 auto;
+} */
+
+
 .container {
   text-align: center;
   width: 100%;
   padding: 0 20px;
   margin-top: 40px;
 }
-
 .name {
   font-family: 'Creato Display', sans-serif;
   font-weight: 800;
@@ -59,7 +68,9 @@ body {
   padding-bottom: 4px;
   width: auto;
   text-align: center;
-}
+} 
+ 
+
 
 
 .menu {
@@ -99,14 +110,18 @@ body {
 
 
 .portrait {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
+  width: 200px;
+  height: auto;
   object-fit: cover;
-  margin-bottom: 20px;
+  border-radius: 0;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-  border: 2px solid #eecbf5;
+  
+  margin-bottom: 0;
+
+  /* ✅ 이거 추가하세요 */
+  margin-top: 8px; /* 또는 10px, 원하는 만큼 */
 }
+
 
 /* 기본 intro-text는 기울이지 않음 */
 .intro-text {
@@ -140,14 +155,33 @@ a:hover {
   text-decoration: underline;
 }
 
-.two-column {
+/* .two-column {
   flex-direction: row;
   justify-content: center;
   gap: 40px;
   text-align: left;
   align-items: center;
   flex-wrap: wrap;
+} */
+
+/* .two-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
+} */
+
+.intro.two-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0px;
+  flex-wrap: wrap;
 }
+
 
 .two-column .portrait {
   margin-bottom: 0;
@@ -157,3 +191,27 @@ a:hover {
   max-width: 500px;
 }
 
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid #444;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: auto;
+}
+
+.footer-links {
+  margin-top: 0.5rem;
+}
+
+.footer-links a {
+  color: #eecbf5;
+  margin: 0 0.7rem;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
