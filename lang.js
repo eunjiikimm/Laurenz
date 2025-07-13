@@ -98,71 +98,75 @@ const translations = {
   <p>Mr. Pohl is a member of the Berlin Lawyers' Association (Berliner Anwaltsverein e.V.), German Lawyers' Association (Deutscher Anwaltverein e.V.) and the German-Ukrainian Lawyers' Association (Deutsch-Ukrainische Juristenvereinigung e.V.) </p>
 `
 
+      },
+      services: {
+        title: "Criminal Defense",
+     text: `
+  <p>Legal support from the very beginning – competent and committed. In stressful or unclear situations, early legal advice can be crucial for the further course of the proceedings. A precise assessment of the facts from a legal perspective provides the foundation for an effective defense.</p>
+
+  <p>I support you from the very beginning of a criminal investigation – whether following an arrest, during pre-trial detention, or during interrogations by the police or public prosecutor. As a criminal defense lawyer, I offer dedicated nationwide representation in all areas of criminal law – both as appointed and private defense counsel.</p>
+
+  <p>Especially in the initial, often decisive stages of a criminal case, competent representation is particularly important. I stand by your side throughout every stage of the proceedings – with legal expertise and a clear focus on what matters most.</p>
+
+  <p>Attorney Pohl also represents victims of crimes or their surviving relatives as joint plaintiffs (Nebenkläger).</p>
+`
+
+      },
+      kosten: {
+        title: "Fees",
+         text: `
+    <h2>Overview of Fees</h2>
+    <p>The question of legal fees is of central importance for clients seeking criminal defense. Effective representation requires thorough and individualized preparation to achieve the best possible results. The amount of the fee depends largely on the scope and complexity of the respective case.</p>
+
+    <p>An initial non-binding consultation with Lawyer Pohl gives you the opportunity to clarify which fee model makes the most sense and is appropriate for your situation. All questions regarding the fee structure will be explained transparently and in detail — with the goal of providing a solid basis for your decision.</p>
+
+    <p><strong>1. Hourly Fee Agreement</strong><br>
+    Billing is based on a previously agreed hourly rate. This model is usually applied to particularly extensive or complex criminal cases where a higher amount of time is expected.</p>
+
+    <p><strong>2. Flat Fee</strong><br>
+    A fixed fee is agreed for certain stages of the proceedings — such as the investigation, intermediate proceedings, or main trial. This model offers cost transparency and predictability throughout the process.</p>
+
+    <p><strong>3. Billing according to the German Attorney Remuneration Act (RVG)</strong><br>
+    Fees can also be billed according to the statutory provisions of the RVG. Depending on the type and scope of the legal work, billing is done within the legally defined fee ranges. The specific fee is based on the significance of the matter and the level of difficulty.</p>
+
+    <p><strong>4. Court-Appointed Defense</strong><br>
+    In certain criminal proceedings — especially in serious cases or when legal defense is mandatory (§ 140 StPO) — a court-appointed defense may be applicable. The costs are initially covered by the state. However, in the event of a conviction, the defendant may be required to reimburse the costs.</p>
+  `
+      },
+      partners: {
+        title: "Partners",
+       text: `
+<p><strong>Cooperation in Timișoara, Romania</strong></p>
+<p>Attorney Laurenz Pohl offers you a special service in German-Romanian legal matters. Close cooperation with the law firm Makszem-Dumbrăveanu in Timișoara, Romania, and bilingual support enable comprehensive legal advice and representation in both countries.</p>
+<p>This cooperation offers you the advantage of having a contact person in your home country who simultaneously coordinates and supports the enforcement of your claims in the neighboring country.</p>
+<p>Together, the law firms cover a wide range of legal services – from out-of-court advice on contractual matters to the enforcement of claims in court, and even debt collection proceedings in Germany and Romania.</p>
+<p>In addition to enforcing civil claims, attorney Makszem-Dumbrăveanu specializes in representing German-Romanian clients before all authorities in Romania.</p>
+`
+
+      },
+      contact: {
+        title: "Contact",
+        text: "Here is how to contact us..."
       }
-//       services: {
-//         title: "Criminal Defense",
-//      text: `
-//   <p>Legal support from the very beginning – competent and committed. In stressful or unclear situations, early legal advice can be crucial for the further course of the proceedings. A precise assessment of the facts from a legal perspective provides the foundation for an effective defense.</p>
+    }
+  }
+  ,
+  uk: {
+    title: "Адвокат",
+     menu: ["Профіль"],
 
-//   <p>I support you from the very beginning of a criminal investigation – whether following an arrest, during pre-trial detention, or during interrogations by the police or public prosecutor. As a criminal defense lawyer, I offer dedicated nationwide representation in all areas of criminal law – both as appointed and private defense counsel.</p>
+    // menu: ["Профіль", "Кримінальний захист", "Вартість", "Партнери", "Контакт"],
+    pages: {
+      about: {
+        title: "Профіль",
+     text: `
+  <p>Лауренц Поль був прийнятий до Берлінської колегії адвокатів у 2025 році. Народився і виріс у Берліні, вивчав право в Потсдамському університеті. Проходив юридичну практику в окрузі Апеляційного суду в Берліні, в тому числі в юридичній фірмі Zimmermann Kaliner Kugler та в юридичній фірмі, що спеціалізується на міжнародному приватному праві в Тімішоарі, Румунія.</p>
 
-//   <p>Especially in the initial, often decisive stages of a criminal case, competent representation is particularly important. I stand by your side throughout every stage of the proceedings – with legal expertise and a clear focus on what matters most.</p>
-
-//   <p>Attorney Pohl also represents victims of crimes or their surviving relatives as joint plaintiffs (Nebenkläger).</p>
-// `
-
-//       },
-//       kosten: {
-//         title: "Fees",
-//          text: `
-//     <h2>Overview of Fees</h2>
-//     <p>The question of legal fees is of central importance for clients seeking criminal defense. Effective representation requires thorough and individualized preparation to achieve the best possible results. The amount of the fee depends largely on the scope and complexity of the respective case.</p>
-
-//     <p>An initial non-binding consultation with Lawyer Pohl gives you the opportunity to clarify which fee model makes the most sense and is appropriate for your situation. All questions regarding the fee structure will be explained transparently and in detail — with the goal of providing a solid basis for your decision.</p>
-
-//     <p><strong>1. Hourly Fee Agreement</strong><br>
-//     Billing is based on a previously agreed hourly rate. This model is usually applied to particularly extensive or complex criminal cases where a higher amount of time is expected.</p>
-
-//     <p><strong>2. Flat Fee</strong><br>
-//     A fixed fee is agreed for certain stages of the proceedings — such as the investigation, intermediate proceedings, or main trial. This model offers cost transparency and predictability throughout the process.</p>
-
-//     <p><strong>3. Billing according to the German Attorney Remuneration Act (RVG)</strong><br>
-//     Fees can also be billed according to the statutory provisions of the RVG. Depending on the type and scope of the legal work, billing is done within the legally defined fee ranges. The specific fee is based on the significance of the matter and the level of difficulty.</p>
-
-//     <p><strong>4. Court-Appointed Defense</strong><br>
-//     In certain criminal proceedings — especially in serious cases or when legal defense is mandatory (§ 140 StPO) — a court-appointed defense may be applicable. The costs are initially covered by the state. However, in the event of a conviction, the defendant may be required to reimburse the costs.</p>
-//   `
-//       },
-//       partners: {
-//         title: "Partners",
-//        text: `
-// <p><strong>Cooperation in Timișoara, Romania</strong></p>
-// <p>Attorney Laurenz Pohl offers you a special service in German-Romanian legal matters. Close cooperation with the law firm Makszem-Dumbrăveanu in Timișoara, Romania, and bilingual support enable comprehensive legal advice and representation in both countries.</p>
-// <p>This cooperation offers you the advantage of having a contact person in your home country who simultaneously coordinates and supports the enforcement of your claims in the neighboring country.</p>
-// <p>Together, the law firms cover a wide range of legal services – from out-of-court advice on contractual matters to the enforcement of claims in court, and even debt collection proceedings in Germany and Romania.</p>
-// <p>In addition to enforcing civil claims, attorney Makszem-Dumbrăveanu specializes in representing German-Romanian clients before all authorities in Romania.</p>
-// `
-
-//       },
-//       contact: {
-//         title: "Contact",
-//         text: "Here is how to contact us..."
-//       }
-//     }
-//   },
-//   uk: {
-//     title: "Адвокат",
-//     menu: ["Профіль", "Кримінальний захист", "Вартість", "Партнери", "Контакт"],
-//     pages: {
-//       about: {
-//         title: "Профіль",
-//      text: `
-//   <p>Лауренц Поль був прийнятий до Берлінської колегії адвокатів у 2025 році. Народився і виріс у Берліні, вивчав право в Потсдамському університеті. Проходив юридичну практику в окрузі Апеляційного суду в Берліні, в тому числі в юридичній фірмі Zimmermann Kaliner Kugler та в юридичній фірмі, що спеціалізується на міжнародному приватному праві в Тімішоарі, Румунія.</p>
-
-//   <p>Пан Поль працює в ZK ² Rechtsanwälte з 2018 року - спочатку як випускник юридичного факультету, а потім як юрист з повною вищою освітою. За цей час він зміг отримати широкі практичні знання у сфері кримінального захисту. На додаток до кримінального права, в даний час він спеціалізується на штрафах та дорожньому праві. Пан Поль підтримує своїх клієнтів фаховими знаннями, послідовністю та наполегливістю.</p>
-//   <p>Пан Поль є членом Berliner Anwaltverein e.V., Deutscher Anwaltverein e.V. та Deutsch-Ukrainische Juristenvereinigung e.V.</p>
-// `
-//       },
+  <p>Пан Поль працює в ZK ² Rechtsanwälte з 2018 року - спочатку як випускник юридичного факультету, а потім як юрист з повною вищою освітою. За цей час він зміг отримати широкі практичні знання у сфері кримінального захисту. На додаток до кримінального права, в даний час він спеціалізується на штрафах та дорожньому праві. Пан Поль підтримує своїх клієнтів фаховими знаннями, послідовністю та наполегливістю.</p>
+  <p>Пан Поль є членом Berliner Anwaltverein e.V., Deutscher Anwaltverein e.V. та Deutsch-Ukrainische Juristenvereinigung e.V.</p>
+`
+      }
+//       ,
 //       services: {
 //         title: "Кримінальний захист",
 //        text: `
