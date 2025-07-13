@@ -269,8 +269,10 @@ footer {
     padding-bottom: 2px;
   }
 
-  .menu {
-    flex-direction: column;
+.menu {
+  
+    flex-wrap: wrap;      
+    justify-content: center;
     gap: 10px;
     margin: 10px 0 20px 0;
   }
