@@ -159,7 +159,7 @@ body {
   
   margin-bottom: 0;
 
-  /* ✅ 이거 추가하세요 */
+
   margin-top: 8px; /* 또는 10px, 원하는 만큼 */
 }
 
@@ -255,4 +255,69 @@ footer {
 
 .footer-links a:hover {
   text-decoration: underline;
+}
+
+/* 모바일 반응형 설정 */
+@media (max-width: 480px) {
+  .name {
+    font-size: 28px;
+    -webkit-text-stroke: 0.5px #eecbf5;
+  }
+
+  .title {
+    font-size: 18px;
+    padding-bottom: 2px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0 20px 0;
+  }
+
+  .menu a {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .language-switch {
+    top: 5px;
+    right: 5px;
+    padding: 4px;
+  }
+
+  .language-switch button {
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+
+  .contact-info {
+    font-size: 14px;
+    margin: 1.5rem auto;
+    padding: 0 10px;
+  }
+
+  .intro-text {
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0 10px;
+  }
+
+  .two-column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .two-column .portrait {
+    width: 180px;
+  }
+
+  .two-column .intro-text {
+    max-width: 100%;
+  }
+
+  .map-container iframe {
+    width: 100%;
+    height: 250px;
+  }
 }
