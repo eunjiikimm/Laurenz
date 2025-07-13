@@ -149,7 +149,7 @@ body {
 
 
 
-
+/* 
 .portrait {
   width: 200px;
   height: auto;
@@ -158,10 +158,20 @@ body {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
   
   margin-bottom: 0;
+  margin-top: 0;
 
 
-  margin-top: 8px; /* 또는 10px, 원하는 만큼 */
+} */
+
+.portrait {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  margin: 0; 
+  align-self: flex-start;
 }
+
 
 
 /* 기본 intro-text는 기울이지 않음 */
@@ -170,7 +180,8 @@ body {
   text-justify: inter-word;
   line-height: 1.6;
   max-width: 800px;
-  margin: 2rem auto;
+  /* margin: 2rem auto; */
+  margin: 1rem 0;
   padding: 0 1rem;
 }
 
@@ -224,9 +235,14 @@ a:hover {
 }
 
 
-.two-column .portrait {
+/* .two-column .portrait {
   margin-bottom: 0;
+} */
+ .two-column .portrait {
+  margin-bottom: 0;
+  margin-right: 20px;  /* 추가: 이미지와 텍스트 사이 적당한 간격 */
 }
+
 
 .two-column .intro-text {
   max-width: 500px;
@@ -269,10 +285,8 @@ footer {
     padding-bottom: 2px;
   }
 
-.menu {
-  
-    flex-wrap: wrap;      
-    justify-content: center;
+  .menu {
+    flex-direction: column;
     gap: 10px;
     margin: 10px 0 20px 0;
   }
@@ -299,11 +313,20 @@ footer {
     padding: 0 10px;
   }
 
-  .intro-text {
+  /* .intro-text {
     font-size: 15px;
     line-height: 1.5;
     padding: 0 10px;
-  }
+  } */
+
+  .intro-text {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0;       
+  padding: 0 1rem;
+}
 
   .two-column {
     flex-direction: column;
