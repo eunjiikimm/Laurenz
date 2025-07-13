@@ -3,12 +3,14 @@
 const translations = {
   de: {
     title: "Rechtsanwalt",
-    menu: ["Profil", "Strafverteidigung", "Kosten", "Kooperationspartner", "Kontakt"],
-    pages: {
+    menu: ["Home", "Profil", "Strafverteidigung", "Kosten", "Kooperationspartner", "Kontakt"],
+
+   pages: {
 
       about: {
         title: "Profil",
  text: `
+   <p><strong>Profil</strong></p>
   <p>Laurenz Pohl ist seit 2025 in Berlin zur Anwaltschaft zugelassen. Geboren und aufgewachsen in Berlin-Schöneberg, studierte er Rechtswissenschaften an der Universität Potsdam. Sein Rechtsreferendariat absolvierte er im Bezirk des Kammergerichts in Berlin, unter anderem bei den Rechtsanwälten Zimmermann Kaliner Kugler sowie bei einer auf internationales Privatrecht spezialisierten Kanzlei in Timișoara, Rumänien.</p>
 
   <p>Bereits seit 2018 war Rechtsanwalt Pohl in der Kanzlei ZK ² Rechtsanwälte tätig – zunächst als Diplomjurist und schließlich als Rechtsanwalt. Während dieser Zeit konnte er umfassende praktische Kenntnisse auf dem Gebiet der Strafverteidigung gewinnen. Neben dem Strafrecht liegt sein jetziger Tätigkeitsschwerpunkt im Bußgeld- und Verkehrsrecht. Rechtsanwalt Pohl steht seinen Mandantinnen und Mandanten mit Fachwissen, Konsequenz und Durchsetzungsstärke zur Seite.</p>
@@ -86,11 +88,13 @@ const translations = {
   },
   en: {
     title: "Lawyer",
-    menu: ["Profile", "Criminal Defense", "Fees", "Partners", "Contact"],
+menu: ["Home", "Profile", "Criminal Defense", "Fees", "Partners", "Contact"],
+
     pages: {
       about: {
         title: "Profile",
       text: `
+       <p><strong>Profile</strong></p>
   <p>Laurenz Pohl was admitted to the Bar in 2025. Born and raised in Berlin-Schöneberg, he studied law at the University of Potsdam. He completed his legal clerkship in the district of the Court of Appeal in Berlin, including at the law firm Zimmermann Kaliner Kugler and at a law firm specializing in private international law in Timișoara, Romania.</p>
 
   <p>Mr. Pohl has been working at ZK ² Rechtsanwälte since 2018 - first as a law graduate and then as a lawyer. During this time, he was able to gain extensive practical knowledge in the field of criminal defense. In addition to criminal law, his current focus is on administrative fine and traffic law. Mr. Pohl supports his clients with his expertise, consistency and assertiveness.</p>
@@ -153,7 +157,7 @@ const translations = {
   ,
   uk: {
     title: "Адвокат",
-     menu: ["Профіль"],
+    menu: ["Головна", "Профіль"],
 
     // menu: ["Профіль", "Кримінальний захист", "Вартість", "Партнери", "Контакт"],
     pages: {
