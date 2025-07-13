@@ -33,22 +33,29 @@ body {
 }
 
 
-/* .container {
+container {
   text-align: center;
   width: 100%;
-  /* max-width: 1000px; 
+  max-width: 1000px; 
   padding: 0 20px;
   margin: 0 auto;
-} */
+} 
+.contact-info {
+  text-align: center;
+  line-height: 1.6;
+  margin: 2rem auto;
+}
 
 
-.container {
+
+/* .container {
   text-align: center;
   width: 100%;
   padding: 0 20px;
   margin-top: 40px;
-}
-.name {
+} */
+
+/* .name {
   font-family: 'Creato Display', sans-serif;
   font-weight: 800;
   font-size: 40px;
@@ -57,9 +64,26 @@ body {
   -webkit-text-stroke: 1px #eecbf5;
   text-shadow: none;
   margin-bottom: 10px;
+} */
+ .name {
+  font-family: 'Creato Display', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px #eecbf5;
+  text-shadow: none;
+  margin-bottom: 10px;
+
+  display: block;           /* 블록 요소로 변경 */
+  text-align: center;       /* 텍스트 가운데 정렬 */
+  margin-left: auto;        /* 수평 가운데 정렬 */
+  margin-right: auto;
+  width: fit-content;       /* 내용 크기만큼만 */
 }
 
-.title {
+
+/* .title {
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -69,16 +93,33 @@ body {
   width: auto;
   text-align: center;
 } 
- 
+  */
+
+
+.title {
+  width: 100vw;
+  text-align: center;
+  border-bottom: 2px solid #eecbf5;
+  padding-bottom: 4px;
+  margin-left: calc(-50vw + 50%); /* 가운데 정렬 보정 */
+}
 
 
 
-.menu {
+/* .menu {
   display: flex;
   justify-content: flex-start;
   gap: 25px;
   margin: 20px 0 30px 0;
+} */
+
+.menu {
+  display: flex;
+  justify-content: center;   /* 중앙 정렬 */
+  gap: 25px;
+  margin: 20px 0 30px 0;
 }
+
 
 .menu a {
   color: #eecbf5;
