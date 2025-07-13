@@ -5,13 +5,14 @@ const translations = {
     title: "Rechtsanwalt",
     menu: ["Profil", "Strafverteidigung", "Kosten", "Kooperationspartner", "Kontakt"],
     pages: {
+
       about: {
         title: "Profil",
  text: `
-  <p>Rechtsanwalt Pohl ist seit 2025 in Berlin zur Anwaltschaft zugelassen. Geboren und aufgewachsen in Berlin-Schöneberg, studierte er Rechtswissenschaften an der Universität Potsdam. Sein Rechtsreferendariat absolvierte er im Bezirk des Kammergerichts in Berlin, unter anderem bei den Rechtsanwälten Zimmermann Kaliner Kugler sowie bei einer auf internationales Privatrecht spezialisierten Kanzlei in Timișoara, Rumänien.</p>
+  <p>Laurenz Pohl ist seit 2025 in Berlin zur Anwaltschaft zugelassen. Geboren und aufgewachsen in Berlin-Schöneberg, studierte er Rechtswissenschaften an der Universität Potsdam. Sein Rechtsreferendariat absolvierte er im Bezirk des Kammergerichts in Berlin, unter anderem bei den Rechtsanwälten Zimmermann Kaliner Kugler sowie bei einer auf internationales Privatrecht spezialisierten Kanzlei in Timișoara, Rumänien.</p>
 
-  <p>Bereits seit 2018 war Rechtsanwalt Pohl in der Kanzlei ZK ² Rechtsanwälte tätig – zunächst als studentische Hilfskraft, später als Diplomjurist und schließlich als Rechtsanwalt. Während dieser Zeit konnte er umfassende praktische Kenntnisse auf dem Gebiet der Strafverteidigung gewinnen. Neben der Strafverteidigung liegt sein jetziger Tätigkeitsschwerpunkt in der Vertretung in Bußgeldverfahren und im Verkehrsrecht. Rechtsanwalt Pohl steht seinen Mandantinnen und Mandanten mit Fachwissen, Konsequenz und Durchsetzungsstärke zur Seite.</p>
-  <p>Rechtsanwalt Pohl ist Mitglied im Berliner Anwaltsverein e.V.</p>
+  <p>Bereits seit 2018 war Rechtsanwalt Pohl in der Kanzlei ZK ² Rechtsanwälte tätig – zunächst als Diplomjurist und schließlich als Rechtsanwalt. Während dieser Zeit konnte er umfassende praktische Kenntnisse auf dem Gebiet der Strafverteidigung gewinnen. Neben dem Strafrecht liegt sein jetziger Tätigkeitsschwerpunkt im Bußgeld- und Verkehrsrecht. Rechtsanwalt Pohl steht seinen Mandantinnen und Mandanten mit Fachwissen, Konsequenz und Durchsetzungsstärke zur Seite.</p>
+  <p>Rechtsanwalt Pohl ist Mitglied im Berliner Anwaltsverein e.V., im Deutschen Anwaltverein e.V. sowie in der Deutsch-Ukrainischen Juristenvereinigung e.V.</p>
 `
 
       },
@@ -25,7 +26,7 @@ const translations = {
 
           <p>Gerade in diesen ersten, häufig richtungsweisenden Momenten eines Strafverfahrens ist eine kompetente Vertretung besonders wichtig. Ich stehe Ihnen in jeder Phase des Verfahrens zuverlässig zur Seite – mit juristischem Sachverstand und klarem Blick für das Wesentliche.</p>
 
-          <p>RA Pohl vertritt zudem auch Opfer von Straftaten oder deren Hinterbliebene als Nebenkläger.</p>
+          <p>Zusätzlich vertrete ich auch Opfer von Straftaten oder deren Hinterbliebene als Nebenkläger.</p>
         `
       },
       kosten: {
@@ -90,11 +91,11 @@ const translations = {
       about: {
         title: "Profile",
       text: `
-  <p>Lawyer Pohl has been admitted to the bar in Berlin since 2025. Born and raised in Berlin-Schöneberg, he studied law at the University of Potsdam. He completed his legal clerkship in the district of the Berlin Court of Appeal, including placements with the law firm Zimmermann Kaliner Kugler and a law firm in Timișoara, Romania, specialized in international private law.</p>
+  <p>Laurenz Pohl was admitted to the Bar in 2025. Born and raised in Berlin-Schöneberg, he studied law at the University of Potsdam. He completed his legal clerkship in the district of the Court of Appeal in Berlin, including at the law firm Zimmermann Kaliner Kugler and at a law firm specializing in private international law in Timișoara, Romania.</p>
 
-  <p>Since 2018, Lawyer Pohl has worked at the firm ZK² Rechtsanwälte – first as a student assistant, later as a law graduate, and finally as a fully qualified lawyer. During this time, he gained extensive practical experience in criminal defense. In addition to criminal defense, his current focus is on representing clients in administrative fine proceedings and traffic law. Lawyer Pohl supports his clients with expertise, determination, and assertiveness.</p>
+  <p>Mr. Pohl has been working at ZK ² Rechtsanwälte since 2018 - first as a law graduate and then as a lawyer. During this time, he was able to gain extensive practical knowledge in the field of criminal defense. In addition to criminal law, his current focus is on administrative fine and traffic law. Mr. Pohl supports his clients with his expertise, consistency and assertiveness.</p>
 
-  <p>He is a member of the Berlin Bar Association.</p>
+  <p>Mr. Pohl is a member of the Berlin Lawyers' Association (Berliner Anwaltsverein e.V.), German Lawyers' Association (Deutscher Anwaltverein e.V.) and the German-Ukrainian Lawyers' Association (Deutsch-Ukrainische Juristenvereinigung e.V.) </p>
 `
 
       },
@@ -156,22 +157,10 @@ const translations = {
       about: {
         title: "Профіль",
      text: `
-  <p>Пан Поль ліцензований адвокат з 2025 року. Народився і виріс у
-Берлін, вивчав право в Потсдамському університеті. Проходив
-юридичну практику в окрузі Апеляційного суду в Берліні, в тому числі
-в юридичній фірмі Zimmermann Kaliner Kugler та в юридичній фірмі,
-що спеціалізується на міжнародному приватному праві в Тімішоарі,
-Румунія.</p>
+  <p>Лауренц Поль був прийнятий до Берлінської колегії адвокатів у 2025 році. Народився і виріс у Берліні, вивчав право в Потсдамському університеті. Проходив юридичну практику в окрузі Апеляційного суду в Берліні, в тому числі в юридичній фірмі Zimmermann Kaliner Kugler та в юридичній фірмі, що спеціалізується на міжнародному приватному праві в Тімішоарі, Румунія.</p>
 
-  <p>Пан Поль працює в ZK ² Rechtsanwälte з 2018 року - спочатку як
-студентський асистент, пізніше як випускник юридичного факультету
-і, нарешті, як юрист. За цей час він зміг здобути широкі практичні
-знання у сфері кримінального захисту.</p>
-<p>На додаток до кримінального захисту, в даний час він представляє
-інтереси клієнтів у справах про стягнення штрафів та у сфері
-дорожнього руху. Пан Поль підтримує своїх клієнтів спеціальними
-знаннями, послідовністю та наполегливістю.</p>
-  <p>Пан Поль є членом Берлінської асоціації адвокатів.</p>
+  <p>Пан Поль працює в ZK ² Rechtsanwälte з 2018 року - спочатку як випускник юридичного факультету, а потім як юрист з повною вищою освітою. За цей час він зміг отримати широкі практичні знання у сфері кримінального захисту. На додаток до кримінального права, в даний час він спеціалізується на штрафах та дорожньому праві. Пан Поль підтримує своїх клієнтів фаховими знаннями, послідовністю та наполегливістю.</p>
+  <p>Пан Поль є членом Berliner Anwaltverein e.V., Deutscher Anwaltverein e.V. та Deutsch-Ukrainische Juristenvereinigung e.V.</p>
 `
       },
       services: {
@@ -224,32 +213,7 @@ const translations = {
       }
     }
   },
-  fa: {
-    title: "وکیل دادگستری",
-    menu: ["پروفایل", "دفاع کیفری", "هزینه‌ها", "همکاران", "تماس"],
-    pages: {
-      about: {
-        title: "پروفایل",
-        text: "لورنتس پول وکیل پایه یک..."
-      },
-      services: {
-        title: "دفاع کیفری",
-        text: "در این صفحه خدمات کیفری معرفی می‌شود..."
-      },
-      kosten: {
-        title: "هزینه‌ها",
-        text: "هزینه‌ها بر اساس تعرفه تعیین می‌شوند..."
-      },
-      partners: {
-        title: "همکاران",
-        text: "ما با وکلای بین‌المللی همکاری داریم..."
-      },
-      contact: {
-        title: "تماس",
-        text: "با ما تماس بگیرید..."
-      }
-    }
-  }
+  
 };
 
 function setLanguage(lang) {
@@ -278,5 +242,7 @@ function setLanguage(lang) {
     document.getElementById("kosten-text").innerHTML = t.pages.kosten.text;
   }  else if (page === "Kooperationspartner" && t.pages.partners) {
   document.getElementById("partners-text").innerHTML = t.pages.partners.text;
+    }  else if (page === "Kontakt" && t.pages.partners) {
+  document.getElementById("contact-text").innerHTML = t.pages.contact.text;
 }
 }
