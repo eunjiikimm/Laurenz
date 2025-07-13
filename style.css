@@ -33,7 +33,7 @@ body {
 }
 
 
-container {
+.container {
   text-align: center;
   width: 100%;
   max-width: 1000px; 
