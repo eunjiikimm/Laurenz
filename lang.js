@@ -106,6 +106,7 @@ menu: ["Home", "Profile", "Criminal Defense", "Fees", "Partners", "Contact"],
       services: {
         title: "Criminal Defense",
      text: `
+         <h2>Criminal Defense</h2>
   <p>Legal support from the very beginning – competent and committed. In stressful or unclear situations, early legal advice can be crucial for the further course of the proceedings. A precise assessment of the facts from a legal perspective provides the foundation for an effective defense.</p>
 
   <p>I support you from the very beginning of a criminal investigation – whether following an arrest, during pre-trial detention, or during interrogations by the police or public prosecutor. As a criminal defense lawyer, I offer dedicated nationwide representation in all areas of criminal law – both as appointed and private defense counsel.</p>
