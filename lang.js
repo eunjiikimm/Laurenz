@@ -245,4 +245,23 @@ function setLanguage(lang) {
     }  else if (page === "Kontakt" && t.pages.partners) {
   document.getElementById("contact-text").innerHTML = t.pages.contact.text;
 }
+
+  // 페이지 구분 처리 이후에 이 코드를 추가하세요:
+
+  // Ukrainisch: Nur „Profil“ anzeigen
+  if (lang === "uk") {
+    const hideIds = ["nav-services", "nav-costs", "nav-partners", "nav-contact"];
+    hideIds.forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.style.display = "none";
+    });
+  } else {
+    // Bei anderen Sprachen: Alle Menüeinträge wieder anzeigen
+    const showIds = ["nav-services", "nav-costs", "nav-partners", "nav-contact"];
+    showIds.forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.style.display = "inline-block";
+    });
+  }
+
 }
