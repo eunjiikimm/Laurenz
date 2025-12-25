@@ -21,7 +21,7 @@ const translations = {
       services: {
         title: "Strafverteidigung",
        text: `
-       <h2>Strafverteidigung</h2>
+       <p><strong>Strafverteidigung</strong></p>
           <p>Juristische Unterstützung von Anfang an – kompetent und engagiert. In belastenden oder unübersichtlichen Situationen kann eine frühzeitige rechtliche Beratung entscheidend für den weiteren Verlauf sein. Eine präzise Einschätzung des Sachverhalts aus juristischer Perspektive schafft die Grundlage für eine effektive Verteidigung.</p>
 
           <p>Ich begleite Sie bereits in der Anfangsphase eines Ermittlungsverfahrens – sei es nach einer Festnahme, bei Anordnung von Untersuchungshaft oder bei Vernehmungen durch Polizei oder Staatsanwaltschaft. Als Strafverteidiger biete ich bundesweit engagierte Verteidigung in sämtlichen strafrechtlichen Bereichen – sowohl als Wahlverteidiger als auch als Pflichtverteidiger.</p>
@@ -34,7 +34,7 @@ const translations = {
       kosten: {
         title: "Kosten",
        text: `
-    <h2>Kostenübersicht</h2>
+    <p><strong>Kostenübersicht</strong></p>
     <p>
       Die Frage nach den anfallenden Kosten für eine strafrechtliche Vertretung ist für Ratsuchende von zentraler Bedeutung.
       Eine wirkungsvolle Verteidigung erfordert eine gründliche und individuelle Vorbereitung, um optimale Ergebnisse zu erzielen.
@@ -73,7 +73,7 @@ const translations = {
       partners: {
         title: "Kooperationspartner",
         text:  `     
-        <h2>Kooperation Timișoara, Rumänien</h2>
+        <p><strong>Kooperation Timișoara, Rumänien</strong></p>
       <p>Rechtsanwalt Laurenz Pohl bietet Ihnen einen besonderen Service in deutsch-rumänischen Rechtsangelegenheiten. Die enge partnerschaftliche Zusammenarbeit mit der Rechtsanwaltskanzlei Makszem-Dumbrăveanu in Timișoara, Rumänien sowie die zweisprachige Betreuung ermöglichen Ihnen eine umfassende Beratung und Vertretung in beiden Ländern.</p>
       <p>Die Zusammenarbeit hat für Sie den Vorteil, dass Sie einen Ansprechpartner in Ihrem Heimatland haben, der zugleich die Verfolgung Ihrer Ansprüche im Nachbarland koordiniert und unterstützt.</p>
       <p>Gemeinsam decken die Kanzleien ein breites Spektrum an rechtlichen Dienstleistungen ab – von der außergerichtlichen Beratung in Vertragsangelegenheiten über die gerichtliche Durchsetzung von Ansprüchen bis hin zur Zwangsvollstreckung in Deutschland und Rumänien.</p>
@@ -141,7 +141,7 @@ menu: ["Home", "Profile", "Criminal Defense", "Fees", "Partners", "Contact"],
       partners: {
         title: "Partners",
        text: `
-<h2>Cooperation in Timișoara, Romania</h2>
+<p><strong>Cooperation in Timișoara, Romania</strong></p>
 <p>Attorney Laurenz Pohl offers you a special service in German-Romanian legal matters. Close cooperation with the law firm Makszem-Dumbrăveanu in Timișoara, Romania, and bilingual support enable comprehensive legal advice and representation in both countries.</p>
 <p>This cooperation offers you the advantage of having a contact person in your home country who simultaneously coordinates and supports the enforcement of your claims in the neighboring country.</p>
 <p>Together, the law firms cover a wide range of legal services – from out-of-court advice on contractual matters to the enforcement of claims in court, and even debt collection proceedings in Germany and Romania.</p>
