@@ -305,8 +305,8 @@ timp mai ridicat.
     </p>
 
     <p><strong>2. Onorariu fix (pachet)</strong><br>
-    Pentru anumite etape ale procedurii – de exemplu, procedura de urmărire penală, faza
-intermediară sau procesul principal – se stabilește un onorariu fix. Acest model oferă
+    Pentru anumite etape ale procedurii – de exemplu, procedura de urmărire penală, faza<br>
+intermediară sau procesul principal – se stabilește un onorariu fix. Acest model oferă<br>
 transparență în privința costurilor și permite planificarea întregului proces.
     </p>
 
