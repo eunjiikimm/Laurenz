@@ -82,7 +82,10 @@ const translations = {
       },
       contact: {
         title: "Kontakt",
-        text: "So erreichen Sie uns..."
+        text: 
+         `
+       <p>  "So erreichen Sie uns..."</p> `
+     
       }
     }
   },
@@ -151,7 +154,8 @@ menu: ["Home", "Profile", "Criminal Defense", "Fees", "Partners", "Contact"],
       },
       contact: {
         title: "Contact",
-        text: "Here is how to contact us..."
+        text: `
+       <p> "Here is how to contact us..."</p> `
       }
     }
   }
@@ -222,6 +226,135 @@ menu: ["Home", "Profile", "Criminal Defense", "Fees", "Partners", "Contact"],
 //       }
     }
   },
+  ro: {
+  title: "Avocat",
+  menu: ["Acasă", "Profil", "Apărare penală", "Costuri", "Cooperare", "Contact"],
+
+  pages: {
+
+    about: {
+      title: "Profil",
+      text: `
+        <p><strong>Profil</strong></p>
+        <p>
+Avocat Laurenz Pohl este membru al baroului din Berlin din 2025. Născut și crescut în Berlin-
+Schöneberg, a studiat dreptul la Universitatea din Potsdam. Stagiatura juridică a efectuat-o
+în circumscripția Curții de Apel din Berlin, lucrând, printre alții, cu avocații Zimmermann,
+Kaliner și Kugler din Berlin și o firmă de avocatură specializată în drept internațional privat
+din Timișoara, România.
+
+Deja din anul 2018, Avocat Pohl a lucrat la biroul de Avocați ZK² - inițial ca licențiat în drept și
+în cele din urmă ca avocat. În această perioadă, a dobândit cunoștințe practice extinse în
+domeniul apărării penale. Pe lângă dreptul penal, activitatea sa actuală se axează pe dreptul
+contravențional și rutier. Avocatul Pohl oferă clienților săi sprijin de specialitate, consecvență
+și fermitate în apărarea intereselor lor.
+
+Avocat Pohl este membru al Asociației Avocaților din Berlin e.V., al Asociației Avocaților din
+Germania e.V. și al Asociației Juriștilor Germano-Ucraineni e.V.        </p>
+      `
+    },
+
+    services: {
+      title: "Apărare penală",
+      text: `
+        <h2>Apărare penală</h2>
+        <p>
+          Asistență juridică de la început – cu competență și angajament. În situații stresante sau
+neclare, o consultanță juridică timpurie poate fi decisivă pentru desfășurarea ulterioară a
+cazului. O evaluare precisă a situației din perspectivă juridică creează baza pentru o apărare
+eficientă.
+Vă asist încă din faza inițială a unui proces penal – după o arestare, la dispunerea arestului
+preventiv sau în timpul audierilor de către poliție sau parchet. Ca avocat penalist ofer, la
+nivel național, apărare dedicată în toate domeniile dreptului penal – atât ca avocat ales, cât
+și ca avocat din oficiu.
+În special în aceste prime momente, adesea decisive, ale unui proces penal, o reprezentare
+competentă este deosebit de importantă. Sunt alături de dumneavoastră în fiecare fază a
+procedurii – cu expertiză juridică și o viziune clară asupra esențialului.
+Reprezint, de asemenea, victimele infracțiunilor sau urmașii acestora ca parte civilă.
+        </p>
+      `
+    },
+
+   kosten: {
+  title: "Costuri",
+  text: `
+    <h2>Prezentare generală a costurilor</h2>
+
+    <p>
+      Întrebarea legată de costurile implicate pentru reprezentarea în materie penală
+      este de o importanță centrală pentru cei care solicită asistență juridică.
+      O apărare eficientă necesită o pregătire temeinică și individualizată pentru a
+      obține rezultate optime. Nivelul onorariului se stabilește în principal în funcție
+      de amploarea și complexitatea fiecărui caz în parte.
+    </p>
+
+    <p>
+      O consultație inițială fără obligații cu avocatul Pohl vă oferă posibilitatea de a
+      clarifica împreună modelul de remunerare adecvat și rezonabil pentru cazul
+      dumneavoastră. Toate întrebările legate de structura onorariului vor fi explicate
+      transparent și detaliat, cu scopul de a vă oferi o bază solidă pentru luarea unei
+      decizii privind angajarea avocatului.
+    </p>
+
+    <p><strong>1. Onorariu bazat pe tarif orar</strong><br>
+      Plata se face pe baza unui tarif orar convenit anterior. Acest model este de obicei
+      aplicat în cazuri penale deosebit de complexe sau de lungă durată, unde se
+      preconizează un efort de timp mai ridicat.
+    </p>
+
+    <p><strong>2. Onorariu fix (pachet)</strong><br>
+      Pentru anumite etape ale procedurii – de exemplu, procedura de urmărire penală,
+      faza intermediară sau procesul principal – se stabilește un onorariu fix. Acest
+      model oferă transparență în privința costurilor și permite planificarea întregului
+      proces.
+    </p>
+
+    <p><strong>3. Onorariu conform Legii privind remunerarea avocaților (RVG)</strong><br>
+      Remunerarea poate fi stabilită și conform prevederilor legale ale RVG. În funcție
+      de natura și amploarea activității avocatului, se facturează în cadrul tarifelor
+      legale. Tariful concret depinde de importanța cauzei și de gradul de dificultate al
+      cazului.
+    </p>
+
+    <p><strong>4. Apărare obligatorie</strong><br>
+      În anumite situații procedurale penale – în special în cazurile de acuzații grave
+      sau atunci când legea impune apărarea obligatorie (§ 140 StPO) – poate fi aplicată
+      apărarea obligatorie. Costurile aferente sunt inițial suportate de stat. În cazul
+      unei condamnări, inculpatul poate fi însă obligat la rambursarea acestor costuri.
+    </p>
+  `
+},
+
+    partners: {
+      title: "Parteneri",
+      text: `
+        <h2>Colaborare in Timișoara, România</h2>
+        <p>
+         Avocatul Laurenz Pohl vă oferă un serviciu special în domeniul problemelor juridice
+germano-române. Prin colaborarea strânsă și partenerială cu Cabinetul de avocatură
+Makszem-Dumbrăveanu din Timișoara, și prin asistența bilingvă, vă asigurăm o consultanță
+completă și reprezentare profesionistă atât în Germania, cât și în România.
+Această colaborare vă oferă avantajul de a avea un singur punct de contact în țara
+dumneavoastră, care coordonează și sprijină urmărirea drepturilor dumneavoastră în țara
+vecină.
+Împreună, cele două firme de avocatură acoperă un spectru larg de servicii juridice – de la
+consultanță extrajudiciară în probleme contractuale, până la reprezentare în instanță și
+executare silită în Germania și România.
+Pe lângă aplicarea drepturilor civile, avocatul Makszem-Dumbrăveanu este expert în
+reprezentarea clienților germano-români în fața tuturor autorităților din România.
+        </p>
+      `
+    },
+
+    contact: {
+      title: "Contact",
+      text: `
+       <p> "Aici găsiți datele noastre de contact."</p> `
+    }
+
+  }
+},
+
 
 };
 
