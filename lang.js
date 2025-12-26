@@ -91,6 +91,7 @@ const translations = {
   },
   en: {
     title: "Lawyer",
+     directionTitle: "How to find us",
 menu: ["Home", "Profile", "Criminal Defense", "Fees", "Partners", "Contact"],
 
     pages: {
@@ -162,6 +163,7 @@ menu: ["Home", "Profile", "Criminal Defense", "Fees", "Partners", "Contact"],
   ,
   uk: {
     title: "Адвокат",
+     directionTitle: "Як нас знайти",
     menu: ["Головна", "Профіль"],
 
     // menu: ["Профіль", "Кримінальний захист", "Вартість", "Партнери", "Контакт"],
@@ -228,6 +230,7 @@ menu: ["Home", "Profile", "Criminal Defense", "Fees", "Partners", "Contact"],
   },
   ro: {
   title: "Avocat",
+  directionTitle: "Indicații rutiere",
   menu: ["Acasă", "Profil", "Apărare penală", "Costuri", "Cooperare", "Contact"],
 
   pages: {
@@ -364,6 +367,11 @@ function setLanguage(lang) {
 
   document.getElementById("title").innerText = t.title;
 
+    const directionEl = document.getElementById("direction-title");
+  if (directionEl && t.directionTitle) {
+    directionEl.textContent = t.directionTitle;
+  }
+  
   const menuLinks = document.querySelectorAll("#menu a");
   menuLinks.forEach((link, index) => {
     link.textContent = t.menu[index];
