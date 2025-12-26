@@ -285,46 +285,42 @@ Reprezint, de asemenea, victimele infracțiunilor sau urmașii acestora ca parte
     <h2>Prezentare generală a costurilor</h2>
 
     <p>
-      Întrebarea legată de costurile implicate pentru reprezentarea în materie penală
-      este de o importanță centrală pentru cei care solicită asistență juridică.
-      O apărare eficientă necesită o pregătire temeinică și individualizată pentru a
-      obține rezultate optime. Nivelul onorariului se stabilește în principal în funcție
-      de amploarea și complexitatea fiecărui caz în parte.
+     Întrebarea legată de costurile implicate pentru reprezentarea în materie penală este de
+importanță centrală pentru cei care solicită asistență juridică. O apărare eficientă necesită o
+pregătire temeinică și individualizată pentru a obține rezultate optime. Nivelul onorariului se
+stabilește în principal în funcție de amploarea și complexitatea fiecărui caz în parte.
     </p>
 
     <p>
-      O consultație inițială fără obligații cu avocatul Pohl vă oferă posibilitatea de a
-      clarifica împreună modelul de remunerare adecvat și rezonabil pentru cazul
-      dumneavoastră. Toate întrebările legate de structura onorariului vor fi explicate
-      transparent și detaliat, cu scopul de a vă oferi o bază solidă pentru luarea unei
-      decizii privind angajarea avocatului.
+     <strong>O consultație inițială fără obligații</strong> cu avocatul Pohl vă oferă posibilitatea de a clarifica
+împreună modelul de remunerare adecvat și rezonabil pentru cazul dumneavoastră. Toate
+întrebările legate de structura onorariului vor fi explicate transparent și detaliat, cu scopul de
+a vă oferi o bază solidă pentru luarea unei decizii privind angajarea avocatului.
     </p>
 
     <p><strong>1. Onorariu bazat pe tarif orar</strong><br>
-      Plata se face pe baza unui tarif orar convenit anterior. Acest model este de obicei
-      aplicat în cazuri penale deosebit de complexe sau de lungă durată, unde se
-      preconizează un efort de timp mai ridicat.
+     Plata se face pe baza unui tarif orar convenit anterior. Acest model este de obicei aplicat în
+cazuri penale deosebit de complexe sau de lungă durată, unde se preconizează un efort de
+timp mai ridicat.
     </p>
 
     <p><strong>2. Onorariu fix (pachet)</strong><br>
-      Pentru anumite etape ale procedurii – de exemplu, procedura de urmărire penală,
-      faza intermediară sau procesul principal – se stabilește un onorariu fix. Acest
-      model oferă transparență în privința costurilor și permite planificarea întregului
-      proces.
+    Pentru anumite etape ale procedurii – de exemplu, procedura de urmărire penală, faza
+intermediară sau procesul principal – se stabilește un onorariu fix. Acest model oferă
+transparență în privința costurilor și permite planificarea întregului proces.
     </p>
 
     <p><strong>3. Onorariu conform Legii privind remunerarea avocaților (RVG)</strong><br>
-      Remunerarea poate fi stabilită și conform prevederilor legale ale RVG. În funcție
-      de natura și amploarea activității avocatului, se facturează în cadrul tarifelor
-      legale. Tariful concret depinde de importanța cauzei și de gradul de dificultate al
-      cazului.
+   Remunerația poate fi stabilită și conform prevederilor legale ale RVG. În funcție de natura și
+amploarea activității avocatului, se facturează în cadrul tarifelor legale. Tariful concret
+depinde de importanța cauzei și de gradul de dificultate al cazului.
     </p>
 
     <p><strong>4. Apărare obligatorie</strong><br>
-      În anumite situații procedurale penale – în special în cazurile de acuzații grave
-      sau atunci când legea impune apărarea obligatorie (§ 140 StPO) – poate fi aplicată
-      apărarea obligatorie. Costurile aferente sunt inițial suportate de stat. În cazul
-      unei condamnări, inculpatul poate fi însă obligat la rambursarea acestor costuri.
+   În anumite situații procedurale penale – în special în cazurile de acuzații grave sau atunci
+când legea impune apărarea obligatorie (§ 140 StPO) – se poate aplica apărarea obligatorie.
+Costurile aferente sunt inițial suportate de stat. În cazul unei condamnări, inculpatul poate fi
+însă obligat la rambursarea acestor costuri.
     </p>
   `
 },
