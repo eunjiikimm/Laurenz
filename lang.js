@@ -3,6 +3,7 @@
 const translations = {
   de: {
     title: "Rechtsanwalt",
+    directionTitle: "Ihr Weg zu uns",
     menu: ["Home", "Profil", "Strafverteidigung", "Kosten", "Kooperationspartner", "Kontakt"],
 
    pages: {
